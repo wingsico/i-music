@@ -1,4 +1,3 @@
-import React from "react";
 import { GlobalStyle } from "./style";
 import { IconStyle } from "./assets/iconfont/iconfont";
 import { renderRoutes } from "react-router-config";
