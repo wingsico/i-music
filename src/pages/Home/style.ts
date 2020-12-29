@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import globalStyle from '../../assets/style/global-style';
+import globalStyle from '@/assets/style/global-style';
 
 export const Top = styled.div`
   display: flex;
