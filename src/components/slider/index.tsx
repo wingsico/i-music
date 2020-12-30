@@ -9,7 +9,7 @@ import "swiper/components/pagination/pagination.min.css";
 
 SwiperCore.use([Pagination, Autoplay]);
 
-interface IImageUrl {
+export interface IImageUrl {
   imageUrl: string;
 }
 
