@@ -12,8 +12,8 @@ export const SliderContainer = styled.div`
   &::before {
     content: '';
     position: absolute;
-    top: 0;
-    height: 60%;
+    top: -300px;
+    height: 400px;
     width: 100%;
     background: ${globalStyle["theme-color"]};
   }
@@ -25,5 +25,12 @@ export const SliderContainer = styled.div`
     margin: auto;
     border-radius: 6px;
   }
+`
+
+export const Content = styled.div`
+  position: fixed;
+  top: 94px;
+  bottom: 0;
+  width: 100%;
 `
 
