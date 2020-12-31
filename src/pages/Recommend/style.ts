@@ -26,3 +26,4 @@ export const SliderContainer = styled.div`
     border-radius: 6px;
   }
 `
+
